@@ -1,4 +1,4 @@
-package src.com.mediator;
+package observer.example1;
 
 public class ShopDemo {
     public static void main(String[] args) {

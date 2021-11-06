@@ -1,4 +1,4 @@
-package src.com.mediator;
+package observer.example1;
 
 import java.util.Observable;
 import java.util.Observer;

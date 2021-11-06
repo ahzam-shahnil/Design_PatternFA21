@@ -1,4 +1,4 @@
-package src.com.mediator;
+package observer.example1;
 
 public class PrintBox {
     private static int getMaxLength(String... strings) {
