@@ -10,7 +10,6 @@
       <sourceFolder url="file://$MODULE_DIR$/FactoryPattern/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SingletonFa21/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/assign1/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/MediatorPracticeTask" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
