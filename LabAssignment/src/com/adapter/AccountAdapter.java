@@ -13,11 +13,11 @@ public class AccountAdapter extends AbstractAccount {
 
     @Override
     public double getBalance() {
-        final double taxRate = offshoreAccount.getTaxRate();
-        final double grossBalance = offshoreAccount.getOffshoreBalance();
+         double taxRate = offshoreAccount.getTaxRate();
+         double grossBalance = offshoreAccount.getOffshoreBalance();
 
-        final double taxableBalance = grossBalance * taxRate;
-        final double balanceAfterTax = grossBalance - taxableBalance;
+         double taxableBalance = grossBalance * taxRate;
+         double balanceAfterTax = grossBalance - taxableBalance;
         return balanceAfterTax;
     }
 }
