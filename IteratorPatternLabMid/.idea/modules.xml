@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/InterpreterHomeTask.iml" filepath="$PROJECT_DIR$/InterpreterHomeTask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IteratorPatternLabMid.iml" filepath="$PROJECT_DIR$/IteratorPatternLabMid.iml" />
     </modules>
   </component>
 </project>
