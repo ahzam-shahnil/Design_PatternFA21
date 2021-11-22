@@ -19,4 +19,12 @@ public class CD implements Element {
     public void accept(Visitor visitor) {
         visitor.visitCD(this);
     }
+
+    @Override
+    public String toString() {
+        return "CD{" +
+                "title='" + title + '\'' +
+                ", price=" + price +
+                '}';
+    }
 }

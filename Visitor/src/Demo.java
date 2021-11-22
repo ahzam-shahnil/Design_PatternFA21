@@ -6,9 +6,9 @@ public class Demo {
         ShoppingCart shoppingCart = new ShoppingCart();
         shoppingCart.addItem(book);
         shoppingCart.addItem(cd);
+        System.out.println(shoppingCart);
 
         double payable = shoppingCart.calculatePayable();
         System.out.println("Total amount payable = " + payable);
-
     }
 }

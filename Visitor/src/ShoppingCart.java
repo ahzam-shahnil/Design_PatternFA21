@@ -18,4 +18,11 @@ public class ShoppingCart {
         double payable = payableVisitor.getTotalPayableForCart();
         return payable;
     }
+
+    @Override
+    public String toString() {
+        return "ShoppingCart{" +
+                "items= \n" + items +
+                "\n}";
+    }
 }

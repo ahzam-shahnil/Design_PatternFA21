@@ -19,4 +19,12 @@ public class Book implements Element {
     public void accept(Visitor visitor) {
         visitor.visitBook(this);
     }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "name='" + name + '\'' +
+                ", price=" + price +
+                '}';
+    }
 }
