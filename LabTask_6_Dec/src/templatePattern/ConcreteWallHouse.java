@@ -1,6 +1,6 @@
 package templatePattern;
 
-public class ConcreteWallHouse extends House{
+public class ConcreteWallHouse extends House {
     @Override
     void decorateHouse() {
         System.out.println("Decorating Concrete Wall House");
@@ -19,7 +19,6 @@ public class ConcreteWallHouse extends House{
     @Override
     void constructWindows() {
         System.out.println("Constructing windows for Concrete Wall House");
-
     }
 
     @Override
