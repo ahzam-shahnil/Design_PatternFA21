@@ -7,5 +7,8 @@ public class Demo {
         remote.doAction();
         remote.setTvState(tVOffState);
         remote.doAction();
+//        TVBasic tv = new TVBasic();
+//        tv.setState("ON");
+//        tv.doAction();
     }
 }
